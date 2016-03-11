@@ -14,7 +14,6 @@ import com.navigationdrawer.R
 class Fragment_Option_A : Fragment() {
     override fun onCreateView(inflater: LayoutInflater?,
                               container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        // TODO Auto-generated method stub
         val rootView = inflater!!.inflate(R.layout.fragment_option_a, container, false)
         return rootView
     }
