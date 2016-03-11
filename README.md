@@ -13,7 +13,7 @@ Project :
 build.gradle
 
 apply plugin: 'kotlin-android'
-
+```
 sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
@@ -34,4 +34,4 @@ buildscript {
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
-} 
+} ```
